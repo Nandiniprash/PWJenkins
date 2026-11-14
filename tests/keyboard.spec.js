@@ -4,6 +4,7 @@ test("combo", async({page})=>{
     await page.goto('https://demoapps.qspiders.com/ui?scenario=1')
 
     await page.locator('#name').click()
+    //jenkins
     await page.keyboard.type("Teddy Bear", {delay: 600})
 
     await page.locator('[id="email"]').click()
